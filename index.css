@@ -2,3 +2,40 @@ body {
     background: #EEE;
     font-family: 'Fira Mono';
 }
+
+* {
+    box-sizing: border-box;
+}
+
+/* Components */
+.link {
+    color: #000;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Navbar */
+.nav {
+    position: relative;
+    width: 100%;
+    height: 60px;
+}
+
+.nav__section {
+    display: inline-block;
+    padding: 0 30px;
+    height: 60px;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+.nav__section.index {
+    float: left;
+}
+
+.nav__section.about {
+    float: right;
+}
