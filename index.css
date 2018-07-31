@@ -7,6 +7,14 @@ body {
     box-sizing: border-box;
 }
 
+/* Layout */
+.layout {    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
 /* Components */
 .link {
     color: #000;
@@ -38,4 +46,28 @@ body {
 
 .nav__section.about {
     float: right;
+}
+
+/* Main */
+.main {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__container {
+    text-align: center;
+}
+
+.main__links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main__links li {
+    padding: 0 15px;
 }
