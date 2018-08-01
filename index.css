@@ -5,6 +5,8 @@ body {
 
 * {
     box-sizing: border-box;
+    text-transform: uppercase;
+    letter-spacing: 0.025rem;
 }
 
 /* Layout */
@@ -50,11 +52,13 @@ body {
 
 /* Main */
 .main {
-    display: flex;
     flex: 1;
+    display: flex;
     height: 100%;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    padding: 0 20px;
 }
 
 .main__container {
@@ -62,12 +66,12 @@ body {
 }
 
 .main__links {
-    display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
 .main__links li {
-    padding: 0 15px;
+    display: inline-block;
+    padding: 5px 15px;
 }
