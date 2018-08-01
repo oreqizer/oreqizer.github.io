@@ -5,8 +5,11 @@ body {
 
 * {
     box-sizing: border-box;
-    text-transform: uppercase;
     letter-spacing: 0.025rem;
+}
+
+h1, h2 {
+    text-transform: uppercase;
 }
 
 /* Layout */
@@ -21,6 +24,7 @@ body {
 .link {
     color: #000;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .link:hover {
