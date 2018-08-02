@@ -1,11 +1,12 @@
 body {
     background: #EEE;
     font-family: 'Fira Mono';
+    letter-spacing: 0.025rem;
+    line-height: 1.5rem;
 }
 
 * {
     box-sizing: border-box;
-    letter-spacing: 0.025rem;
 }
 
 h1, h2 {
@@ -66,6 +67,10 @@ h1, h2 {
 }
 
 .main__container {
+    max-width: 720px;
+}
+
+.main__container--centered {
     text-align: center;
 }
 
